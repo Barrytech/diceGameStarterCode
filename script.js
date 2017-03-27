@@ -5,9 +5,9 @@ $(document).ready(function(){
   //Place your code here 
   
   
-  var num= Math.rondom();
+  var num= Math.random();
   console.log(num);
-  var num6= num6*6;
+  var num6= num*6;
   console.log(num6);
    return Math.floor(num6)+1;
     
@@ -19,13 +19,13 @@ $("#roll-dice").click(function(){
   if (dice===2)
   $("#container").append("<img src= 'images/2.png'>");
   if (dice===3)
-  $("#container").append("img src='images/3.png'>");
+  $("#container").append("<img src='images/3.png'>");
   if (dice===4)
-  $("#container").append("img src='images/4.png'>");
+  $("#container").append("<img src='images/4.png'>");
   if (dice===5)
-  $("#container").append("img src='images/5.png'>");
+  $("#container").append("<img src='images/5.png'>");
   if (dice===6)
-  $("#container").append("img src='images/6.png'>");
+  $("#container").append("<img src='images/6.png'>");
   
 });
 });
